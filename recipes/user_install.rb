@@ -33,6 +33,7 @@ when 'debian', 'ubuntu'
 when "centos", "redhat", "amazon", "scientific"
     install_packages = %w{
     gcc
+    gcc-c++
     bzip2
     bzip2-devel
     libffi-devel
